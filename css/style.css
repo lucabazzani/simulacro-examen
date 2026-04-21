@@ -1,0 +1,165 @@
+/* --- VARIABLES DE DISEÑO (Style Guide) --- */
+:root {
+  --bg-surface: #f1f1e6;
+  --primary-green: #d0ff41;
+  --border-color: #666666;
+  --text-main: #282828;
+  --card-header: #e0e0e0;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+  --shadow-retro: 4px 4px 0px #000;
+}
+
+body {
+  background-color: var(--bg-surface);
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  line-height: 1.6;
+}
+
+/* --- ESTILO DE "VENTANAS" --- */
+.custom-card {
+  border: 2px solid var(--text-main) !important; /* Grosor según imagen */
+  background: white;
+  box-shadow: var(--shadow-retro);
+  border-radius: 0 !important;
+  margin-bottom: 2rem;
+  overflow: hidden; /* Importante: obliga al header a tocar los bordes */
+  padding: 0 !important; /* Elimina cualquier espacio entre el borde y el header */
+}
+
+.custom-card-header {
+  background-color: var(--card-header);
+  border-bottom: 2px solid var(--text-main);
+  padding: 8px 15px; /* Un poco más de aire vertical */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.window-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.win-btn {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--text-main);
+  background: white;
+  font-size: 18px; /* Tamaño del icono interno */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* El card-body SÍ lleva padding para separar el texto */
+.custom-card .card-body {
+  padding: 25px !important;
+}
+
+.custom-card .card-body p {
+  margin-bottom: 20px;
+}
+
+.custom-card .d-grid {
+  gap: 12px !important;
+}
+
+/* --- COMPONENTES (Basados en la imagen) --- */
+.btn-tech {
+  background-color: var(--primary-green);
+  color: var(--text-main);
+  border: 2px solid var(--text-main);
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  transition: all 0.1s; /* Más rápido tipo switch */
+}
+
+.btn-tech:hover {
+  background-color: var(--text-main);
+  color: var(--primary-green);
+  transform: translate(-2px, -2px); /* Efecto presión */
+  box-shadow: 2px 2px 0px #000;
+  border-color: var(--primary-green);
+}
+
+.btn-outline-tech {
+  background: transparent;
+  border: 2px solid var(--border-color); /* Borde un poco más fuerte */
+  color: var(--text-main);
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+/* Checkbox estilo Retro-UI */
+.form-check-input {
+  border: 2px solid var(--text-main) !important;
+  border-radius: 0 !important;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-green) !important;
+  border-color: var(--text-main) !important;
+}
+
+/* ALERTAS ESTILO SYSTEM MESSAGE */
+.alert-success-tech {
+  background-color: var(--primary-green);
+  border: 2px solid var(--text-main);
+  color: black;
+  font-weight: bold;
+  box-shadow: var(--shadow-retro);
+  border-radius: 0;
+}
+
+.alert-error-tech {
+  background-color: #282828;
+  color: #ff5f5f;
+  border: 2px solid #ff5f5f;
+  border-radius: 0;
+}
+
+/* FONDO Y TIPOGRAFÍA */
+.bg-grid {
+  background-size: 30px 30px;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px;
+  border-bottom: 2px dashed var(--border-color);
+  padding-bottom: 10px;
+}
+
+/* Especial para el simulador interactivo */
+code {
+  color: #e83e8c;
+  background: #f8f9fa;
+  padding: 2px 4px;
+}
+
+/* En móviles, un margen un poco más pequeño para aprovechar espacio pero sin tocar el borde */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
