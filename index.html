@@ -16,6 +16,27 @@
     />
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* Estilo para el nuevo botón de Bibliografía */
+      .btn-biblio {
+        background-color: #1a3014 !important; /* Verde oscuro estilo terminal */
+        color: #ffffff !important;
+        border: 2px solid var(--text-main);
+        border-radius: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        transition: all 0.2s;
+        text-decoration: none;
+        display: flex;
+        align-items: center-end;
+        justify-content: center;
+      }
+      .btn-biblio:hover {
+        background-color: #282828 !important;
+        color: var(--primary-green) !important;
+      }
+    </style>
   </head>
   <body class="bg-grid">
     <div class="container py-5">
@@ -63,6 +84,11 @@
                 <a href="examen.html?nivel=1&tema=mix" class="btn btn-tech"
                   >Examen Mixto</a
                 >
+
+                <hr class="border-secondary" />
+                <a href="biblio-html.html" class="btn btn-biblio"
+                  >Bibliografía HTML</a
+                >
               </div>
             </div>
           </div>
@@ -102,6 +128,11 @@
                 <a href="examen.html?nivel=2&tema=mix" class="btn btn-tech"
                   >Examen Mixto</a
                 >
+
+                <hr class="border-secondary" />
+                <a href="biblio-css.html" class="btn btn-biblio"
+                  >Bibliografía CSS</a
+                >
               </div>
             </div>
           </div>
@@ -140,6 +171,11 @@
                 >
                 <a href="examen.html?nivel=3&tema=mix" class="btn btn-tech"
                   >Examen Mixto</a
+                >
+
+                <hr class="border-secondary" />
+                <a href="biblio-bootstrap.html" class="btn btn-biblio"
+                  >Bibliografía Bootstrap</a
                 >
               </div>
             </div>
@@ -181,11 +217,23 @@
       </div>
 
       <footer
-        class="mt-5 pt-4 border-top border-secondary opacity-30 text-center"
+        class="mt-5 pt-4 border-top border-secondary opacity-40 text-center pb-5"
       >
         <p class="text-uppercase tracking-widest fw-bold">
-          Hecho por <span class="text-success">Luca Bazzani</span> | Version:
-          1.0.0
+          Hecho por
+          <a
+            href="https://lucabazzadev.web.app"
+            target="_blank"
+            class="text-decoration-none"
+            style="color: #044118"
+            >LUCABAZZADEV</a
+          >
+          | Versión:
+          <a
+            href="notas.html"
+            class="text-decoration-none badge bg-dark text-success border border-secondary py-1 px-2"
+            >1.1.0</a
+          >
         </p>
       </footer>
     </div>
