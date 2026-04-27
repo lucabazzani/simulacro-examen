@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulatron | Frontend</title>
+    <!-- Google Fonts: Monospace look -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* Estilo para el nuevo botón de Bibliografía */
+      .btn-biblio {
+        background-color: #1a3014 !important; /* Verde oscuro estilo terminal */
+        color: #ffffff !important;
+        border: 2px solid var(--text-main);
+        border-radius: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        transition: all 0.2s;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn-biblio:hover {
+        background-color: #282828 !important;
+        color: var(--primary-green) !important;
+      }
+    </style>
+  </head>
+  <body class="bg-grid">
+    <div class="container py-5">
+      <!-- HEADER ESTILO STYLEGUIDE -->
+      <header class="mb-5 text-center">
+        <div class="mb-2">
+          <!-- BOTÓN DE RETORNO AL HUB PRINCIPAL -->
+          <a href="../index.html" class="btn btn-outline-tech btn-sm"
+            >VOLVER AL HUB</a
+          >
+        </div>
+        <h1 class="display-1 fw-bolder">DESARROLLO FRONTEND</h1>
+        <p class="text-uppercase tracking-widest fw-bold">
+          Evaluación múltiple opción de
+          <span class="text-success">HTML, CSS y BOOTSTRAP</span>
+        </p>
+      </header>
+
+      <div class="row g-4">
+        <!-- NIVEL 1: JUNIOR -->
+        <div class="col-lg-4">
+          <div class="custom-card h-100">
+            <div class="custom-card-header">
+              <span>NIVEL: JUNIOR</span>
+            </div>
+            <div class="card-body">
+              <p class="small mb-4 text-muted">
+                Conceptos base y sintaxis esencial.
+              </p>
+              <div class="d-grid gap-2">
+                <!-- Ruteo centralizado con materia=frontend -->
+                <a
+                  href="../examen.html?materia=frontend&nivel=1&tema=html"
+                  class="btn btn-outline-tech text-start"
+                  >1. HTML Básico</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=1&tema=css"
+                  class="btn btn-outline-tech text-start"
+                  >2. Fundamentos de CSS</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=1&tema=bootstrap"
+                  class="btn btn-outline-tech text-start"
+                  >3. Componentes de Bootstrap</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=1&tema=mix"
+                  class="btn btn-tech"
+                  >Examen Mixto</a
+                >
+
+                <hr class="border-secondary" />
+                <a href="biblio/html.html" class="btn btn-biblio"
+                  >Bibliografía HTML</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NIVEL 2: SEMI-SENIOR -->
+        <div class="col-lg-4">
+          <div class="custom-card h-100">
+            <div class="custom-card-header">
+              <span>NIVEL: SEMI SENIOR</span>
+            </div>
+            <div class="card-body">
+              <p class="small mb-4 text-muted">
+                Layouts avanzados, Grid y Flexbox.
+              </p>
+              <div class="d-grid gap-2">
+                <a
+                  href="../examen.html?materia=frontend&nivel=2&tema=html"
+                  class="btn btn-outline-tech text-start"
+                  >1. Semántica y SEO</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=2&tema=css"
+                  class="btn btn-outline-tech text-start"
+                  >2. Layouts Modernos</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=2&tema=bootstrap"
+                  class="btn btn-outline-tech text-start"
+                  >3. Temas Personalizados</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=2&tema=mix"
+                  class="btn btn-tech"
+                  >Examen Mixto</a
+                >
+
+                <hr class="border-secondary" />
+                <a href="biblio/css.html" class="btn btn-biblio"
+                  >Bibliografía CSS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NIVEL 3: SENIOR -->
+        <div class="col-lg-4">
+          <div class="custom-card h-100">
+            <div class="custom-card-header">
+              <span>NIVEL: SENIOR</span>
+            </div>
+            <div class="card-body">
+              <p class="small mb-4 text-muted">
+                Optimización y lógica técnica avanzada.
+              </p>
+              <div class="d-grid gap-2">
+                <a
+                  href="../examen.html?materia=frontend&nivel=3&tema=html"
+                  class="btn btn-outline-tech text-start"
+                  >1. SEO/DOM Técnico</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=3&tema=css"
+                  class="btn btn-outline-tech text-start"
+                  >2. Arquitecturas CSS</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=3&tema=bootstrap"
+                  class="btn btn-outline-tech text-start"
+                  >3. Lógica Responsiva</a
+                >
+                <a
+                  href="../examen.html?materia=frontend&nivel=3&tema=mix"
+                  class="btn btn-tech"
+                  >Examen Mixto</a
+                >
+
+                <hr class="border-secondary" />
+                <a href="biblio/bootstrap.html" class="btn btn-biblio"
+                  >Bibliografía Bootstrap</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MODO ESTRELLA -->
+        <div class="col-12 mt-4">
+          <div
+            class="custom-card bg-dark text-white border-0"
+            style="
+              background-image: linear-gradient(
+                45deg,
+                #1a1a1a 25%,
+                #222 25%,
+                #222 50%,
+                #1a1a1a 50%,
+                #1a1a1a 75%,
+                #222 75%,
+                #222 100%
+              );
+              background-size: 56.57px 56.57px;
+            "
+          >
+            <div class="card-body p-5 text-center">
+              <h2 class="display-5 text-success fw-bold">
+                MINIJUEGO INTERACTIVO
+              </h2>
+              <p class="mb-4">
+                No es un multiple-choice. Escribe código para resolver desafíos
+                en tiempo real.
+              </p>
+              <a href="estrella.html" class="btn btn-tech btn-lg px-5 shadow-lg"
+                >INICIAR</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

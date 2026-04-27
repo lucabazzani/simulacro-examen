@@ -22,6 +22,7 @@ body {
   background: white;
   box-shadow: var(--shadow-retro);
   border-radius: 0 !important;
+  margin-bottom: 2rem;
   overflow: hidden; /* Importante: obliga al header a tocar los bordes */
   padding: 0 !important; /* Elimina cualquier espacio entre el borde y el header */
 }

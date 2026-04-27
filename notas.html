@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registro de Versiones | Notas de Lanzamiento</title>
+    <title>Registro de versiones | release notes</title>
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap"
       rel="stylesheet"
@@ -12,29 +12,37 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body class="bg-grid">
-    <nav
-      class="sticky-top-bar shadow-sm py-2 mb-4"
-      style="
-        background: var(--bg-surface);
-        border-bottom: 2px solid var(--text-main);
+    <link rel="stylesheet" href="common/global.css" />
+    <style>
+      .sticky-nav {
+        background-color: var(--bg-surface);
+        border-bottom: 2px solid #282828;
         position: sticky;
         top: 0;
         z-index: 1000;
-      "
-    >
+      }
+      .badge-version {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+        background: #282828;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="bg-grid">
+    <nav class="sticky-nav shadow-sm py-2 mb-4">
       <div class="container d-flex justify-content-between align-items-center">
         <a href="index.html" class="btn btn-outline-tech btn-sm">Volver</a>
-        <span class="fw-bold text-uppercase">Release Notes</span>
+        <span class="fw-bold text-uppercase small text-muted"
+          >Registro de desarrollo</span
+        >
       </div>
     </nav>
 
     <div class="container py-4">
       <header class="mb-5">
         <h1 class="h2 fw-bold border-bottom border-dark pb-2">
-          Registro de Cambios
+          Registro de cambios
         </h1>
         <p class="text-muted">
           Documentación técnica de actualizaciones y parches.
@@ -43,71 +51,85 @@
 
       <div class="row">
         <div class="col-12">
-          <!-- VERSION 1.1.0 -->
+          <!-- VERSION 1.2.0 -->
           <div class="custom-card mb-5">
             <div class="custom-card-header bg-dark text-white">
-              <span>Versión 1.1.0 (Actual)</span>
-              <span>Abril 2026</span>
+              <span>Módulo Gestión y Escalabilidad</span>
+              <span class="badge bg-warning text-dark">v1.2.0 - Actual</span>
             </div>
             <div class="card-body">
-              <h5 class="fw-bold text-success mb-3">
-                Integración de bibliografías y correcciones
-              </h5>
+              <h5 class="fw-bold mb-3 text-dark">Abril 2026</h5>
               <ul>
                 <li>
-                  <strong>Módulo de estudio:</strong> Creación e integración de
-                  tres secciones de bibliografía técnica para HTML, CSS y
-                  Bootstrap 5.
+                  <strong>Organización modular:</strong> Estructura de carpetas
+                  optimizada para añadir nuevas materias fácilmente.
                 </li>
                 <li>
-                  <strong>Motor de examen:</strong> Se implementó una función de
-                  limpieza de cadenas para permitir el renderizado de etiquetas
-                  HTML dentro de las preguntas y opciones sin romper el DOM.
+                  <strong>Eje temático nuevo:</strong> Incorporación de la
+                  materia Gestión de proyectos con su propia paleta de colores.
                 </li>
                 <li>
-                  <strong>Optimización UX:</strong> Refactorización del lenguaje
-                  de la interfaz para mayor legibilidad y tono profesional.
+                  <strong>Index principal:</strong> Selector global (Hub) para
+                  elegir el área de estudio al iniciar la aplicación.
                 </li>
                 <li>
-                  <strong>Corrección de color:</strong> Rediseño del sistema de
-                  retroalimentación visual en los resultados de examen para
-                  evitar falsos positivos de calificación.
+                  <strong>Consolidación técnica:</strong> Unificación del motor
+                  de examen y el sistema de notas para todas las materias.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- VERSION 1.1.0 -->
+          <div class="custom-card mb-5 opacity-75">
+            <div class="custom-card-header bg-secondary text-white">
+              <span>Bibliografías y Optimización UX</span>
+              <span>v1.1.0</span>
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold mb-3 text-dark">Abril 2026</h5>
+              <ul>
+                <li>
+                  <strong>Material de estudio:</strong> Integración de guías
+                  bibliográficas completas dentro de cada sección.
                 </li>
                 <li>
-                  <strong>Mini-juego interactivo:</strong> Reestructuración de
-                  la lógica de misiones mediante un sistema de capas
-                  superpuestas (Layer Detection) y sincronización con el nuevo
-                  panel de ayudas de comandos CSS.
+                  <strong>Corrección del motor:</strong> Visualización correcta
+                  de etiquetas de código HTML en las preguntas.
+                </li>
+                <li>
+                  <strong>Mejora visual:</strong> Resultados de examen más
+                  claros, marcando la opción elegida y la correcta de forma
+                  discreta.
+                </li>
+                <li>
+                  <strong>Misión interactiva:</strong> Refactorización del
+                  minijuego con nuevas animaciones y panel de ayudas.
                 </li>
               </ul>
             </div>
           </div>
 
           <!-- VERSION 1.0.0 -->
-          <div class="custom-card border-secondary opacity-75">
+          <div class="custom-card border-secondary opacity-50">
             <div class="custom-card-header">
-              <span>Versión 1.0.0</span>
-              <span>Lanzamiento inicial</span>
+              <span>Lanzamiento Inicial</span>
+              <span>v1.0.0</span>
             </div>
             <div class="card-body">
-              <h5 class="fw-bold mb-3">Despliegue inicial del simulador</h5>
+              <h5 class="fw-bold mb-3 text-dark">Marzo 2026</h5>
               <ul>
                 <li>
-                  <strong>Infraestructura básica:</strong> Menú principal basado
-                  en guías de estilo retro-tech.
+                  <strong>Lógica base:</strong> Motor de simulación de 20
+                  preguntas al azar con tres niveles de dificultad.
                 </li>
                 <li>
-                  <strong>Base de datos:</strong> Implementación de 240
-                  preguntas originales divididas por niveles (Junior, Mid,
-                  Senior) y categorías temáticas.
+                  <strong>Banco de datos:</strong> Carga de 240 preguntas
+                  iniciales para la carrera de desarrollo frontend.
                 </li>
                 <li>
-                  <strong>Simulador interactivo:</strong> Desarrollo inicial del
-                  prototipo de entrenamiento visual con Flexbox (Modo Estrella).
-                </li>
-                <li>
-                  <strong>Compatibilidad:</strong> Integración de librerías
-                  externas de Bootstrap y Animate.css.
+                  <strong>Prototipo interactivo:</strong> Desarrollo inicial de
+                  la zona de práctica de Flexbox.
                 </li>
               </ul>
             </div>
@@ -117,7 +139,7 @@
     </div>
 
     <footer class="mt-5 pt-4 text-center pb-5">
-      <p class="small text-muted fw-bold">FIN DEL REGISTRO</p>
+      <p class="small text-muted fw-bold">HECHO POR LUCABAZZADEV</p>
     </footer>
   </body>
 </html>

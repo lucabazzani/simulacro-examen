@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Entrenamiento Flexbox</title>
+    <title>Minijuego Interactivo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -166,5 +166,39 @@
     </div>
 
     <script type="module" src="js/estrella.js"></script>
+    <!-- Cuadro de Logro Integrado (Se activa al finalizar el juego) -->
+    <div
+      id="modal-logro"
+      class="d-none"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      "
+    >
+      <div
+        class="custom-card animate__animated animate__zoomIn"
+        style="max-width: 500px; width: 100%"
+      >
+        <div class="custom-card-header bg-dark text-white">
+          <span>Misión completada</span>
+        </div>
+        <div class="card-body text-center p-5">
+          <h2 class="fw-bold mb-3">¡Felicitaciones!</h2>
+          <p class="text-muted mb-4">
+            Has superado todos los desafíos de este entrenamiento con éxito.
+          </p>
+          <a href="index.html" class="btn btn-tech w-100">Cerrar</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

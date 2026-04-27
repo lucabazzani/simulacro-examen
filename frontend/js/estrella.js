@@ -126,8 +126,8 @@ botonSiguiente.addEventListener("click", () => {
   if (misionActual < misiones.length) {
     cargarMision(misionActual);
   } else {
-    alert("¡Has completado el entrenamiento de la flota!");
-    window.location.href = "index.html";
+    document.getElementById("modal-logro").classList.remove("d-none");
+    document.getElementById("modal-logro").classList.add("d-flex");
   }
 });
 
