@@ -766,7 +766,135 @@ export const bancoPreguntas = [
     ],
     correcta: 1,
   },
-
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "En un formulario, ¿cuál es la principal diferencia técnica entre el método 'get' y 'post'?",
+    opciones: [
+      "Get permite enviar archivos pesados y Post no",
+      "Get muestra los datos en la URL y Post los envía de forma invisible",
+      "Post es más rápido que Get en todos los navegadores",
+      "Get se usa solo para contraseñas y Post para búsquedas",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "Según el material, ¿qué ventaja técnica ofrece colocar el <tfoot> antes del <tbody> en el código de una tabla?",
+    opciones: [
+      "Hace que la tabla sea automáticamente responsiva",
+      "Permite que el navegador renderice el pie de página antes de procesar miles de filas de datos",
+      "Es obligatorio para que funcionen las uniones de celdas con colspan",
+      "Ninguna, es solo una preferencia estética del programador",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "Para vincular correctamente una etiqueta <label> con su respectivo <input> por accesibilidad, se debe usar:",
+    opciones: [
+      "El atributo 'name' en ambos elementos",
+      "El atributo 'id' en el input coincidiendo con el atributo 'for' en la label",
+      "Cualquier clase de CSS que sea igual",
+      "Un comentario HTML que los mencione a ambos",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "¿Cuál es el concepto correcto de la etiqueta <strong> según la semántica moderna?",
+    opciones: [
+      "Solo sirve para que el texto se vea en negrita",
+      "Indica que el texto tiene una importancia fuerte o urgencia",
+      "Se usa exclusivamente para títulos de nivel 1",
+      "Es una etiqueta obsoleta que debe reemplazarse por CSS",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "¿Qué sucede con el contenido de una etiqueta <textarea> que se escribe entre la apertura y el cierre?",
+    opciones: [
+      "Se ignora por completo",
+      "Aparece como texto predeterminado dentro del cuadro",
+      "Se convierte en el ID del elemento",
+      "Solo se puede ver si se usa el método POST",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "En el anidamiento de etiquetas, si abrimos un párrafo y luego un énfasis, ¿cuál es el orden correcto de cierre?",
+    opciones: [
+      "El primero en abrir debe ser el primero en cerrar",
+      "No importa el orden mientras todas tengan su par",
+      "El último elemento en abrir debe ser el primero en cerrar",
+      "Solo se cierran las etiquetas al final del body",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta: "¿Qué describe mejor el propósito de la etiqueta <figure>?",
+    opciones: [
+      "Agrupa contenido ilustrativo y permite una leyenda independiente a través de figcaption",
+      "Se utiliza para dibujar formas geométricas en la pantalla",
+      "Es el contenedor principal de los formularios de contacto",
+      "Sustituye a la etiqueta <img> en HTML5",
+    ],
+    correcta: 0,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "Al definir una imagen, ¿por qué es crítico completar el atributo 'alt'?",
+    opciones: [
+      "Para que la imagen cargue más rápido",
+      "Por accesibilidad (lectores de pantalla) y SEO si la imagen no carga",
+      "Para definir el tamaño de la imagen en píxeles",
+      "Para que el borde sea redondeado",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "Si una entrada de formulario requiere que el usuario solo elija una opción de un grupo de botones circulares, se debe usar:",
+    opciones: [
+      "checkbox",
+      "selection-list",
+      "radio (compartiendo el mismo atributo 'name')",
+      "text-input con autofocus",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "html",
+    pregunta:
+      "¿Qué caracteriza al elemento semántico <aside> según la definición de los apuntes?",
+    opciones: [
+      "Es el pie de página obligatorio de la sección central",
+      "Representa contenido relacionado indirectamente con el artículo principal (como barras laterales)",
+      "Es la etiqueta para poner música de fondo en la web",
+      "Se usa para marcar los enlaces que ya han sido visitados",
+    ],
+    correcta: 1,
+  },
   // ==========================================
   // NIVEL 2 - CSS (Semi-Senior)
   // ==========================================
@@ -884,6 +1012,135 @@ export const bancoPreguntas = [
     opciones: ["Div", "Imágenes", "H1", "Span (sin display block)"],
     correcta: 3,
   },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "¿Quiénes fueron los dos investigadores que unieron sus propuestas para definir el lenguaje CSS a mediados de los 90?",
+    opciones: [
+      "Tim Berners-Lee y Mark Otto",
+      "Håkon Wium Lie y Bert Bos",
+      "Brendan Eich y Winston Royce",
+      "John Resig y Barry Boehm",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "Según la documentación, ¿cuál fue el motivo principal de la creación de un estándar para definir los estilos?",
+    opciones: [
+      "Hacer que el código fuera más colorido",
+      "La dificultad de crear documentos con la misma apariencia en diferentes navegadores",
+      "Eliminar el uso de etiquetas de texto en HTML",
+      "Permitir que las páginas web se impriman en papel",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "¿Qué indica la condición fundamental de un 'Selector Descendente' según el material?",
+    opciones: [
+      "Un elemento debe ser hijo directo del otro",
+      "Un elemento debe estar dentro de otro, sin importar el nivel de profundidad",
+      "Los dos elementos deben tener la misma clase",
+      "El selector solo funciona si el elemento es una etiqueta de párrafo",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "Si queremos aplicar varios estilos a la vez sobre un mismo elemento HTML mediante el atributo class, la sintaxis correcta es:",
+    opciones: [
+      "class='estilo1-estilo2'",
+      "class='estilo1, estilo2'",
+      "class='estilo1 estilo2' (separados por un espacio en blanco)",
+      "class='estilo1' class='estilo2'",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "¿A qué se refiere la 'cascada de prioridades' cuando hay conflictos de estilos?",
+    opciones: [
+      "A que el estilo con el color más oscuro siempre gana",
+      "A un orden de jerarquía donde el estilo en línea es el que tiene mayor prioridad",
+      "A que el navegador ignora todos los estilos internos",
+      "A que las hojas externas anulan los estilos locales del usuario",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta: "La unidad de medida 'ex' es relativa respecto a:",
+    opciones: [
+      "El tamaño de la ventana del navegador",
+      "La altura de la letra 'x' del tipo de letra utilizado",
+      "La resolución total de la pantalla",
+      "El ancho del elemento padre",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "Dentro del Modelo de Cajas, ¿qué propiedad define el espacio libre OPCIONAL entre el contenido y el borde?",
+    opciones: [
+      "Margin (Margen)",
+      "Outline (Contorno)",
+      "Padding (Relleno)",
+      "Shadow (Sombra)",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "¿Qué sucede con la anchura (width) de un elemento si el valor asignado es 'auto'?",
+    opciones: [
+      "El elemento desaparece",
+      "El navegador la determina según el tipo de elemento (bloque/línea) y el espacio disponible",
+      "La anchura siempre se fija en 100 píxeles",
+      "Se hereda el color del fondo del padre automáticamente",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "Según el concepto fundamental de 'Diseño web responsive', las páginas web:",
+    opciones: [
+      "Deben ocultar información para dispositivos pequeños",
+      "No deben omitir información, sino adaptar su contenido al dispositivo",
+      "Solo pueden funcionar si el usuario tiene JavaScript activado",
+      "Requieren un archivo HTML diferente para cada celular",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "css",
+    pregunta:
+      "Una 'Vista de Cuadrícula' (grid-view) responsiva se basa habitualmente en un sistema de:",
+    opciones: [
+      "12 columnas que suman el 100% de la anchura total",
+      "4 columnas fijas de 200 píxeles",
+      "Tablas HTML con bordes invisibles",
+      "Nodos circulares conectados por flechas",
+    ],
+    correcta: 0,
+  },
 
   // ==========================================
   // NIVEL 2 - BOOTSTRAP (Semi-Senior)
@@ -967,7 +1224,147 @@ export const bancoPreguntas = [
     opciones: [".center", ".text-center", ".align-middle", ".mx-auto"],
     correcta: 1,
   },
-
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cuál es la diferencia de comportamiento entre .container y .container-fluid?",
+    opciones: [
+      "Container ocupa el 100% siempre; Fluid tiene un ancho máximo variable",
+      "Container tiene un ancho máximo en cada punto de corte; Fluid ocupa siempre el 100%",
+      "Fluid es exclusivo para dispositivos móviles y Container para computadoras",
+      "No hay diferencia, son dos formas de escribir la misma regla",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿Qué sucede con los componentes del formulario si no se utiliza la clase contenedora .mb-3?",
+    opciones: [
+      "Los campos dejan de funcionar",
+      "Los controles aparecen pegados verticalmente sin margen inferior",
+      "El navegador muestra un error de validación",
+      "Las etiquetas label se vuelven invisibles",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "En las utilidades de espaciado, ¿qué dirección indica la letra 's' (ej: .ms-2)?",
+    opciones: [
+      "Arriba (Top)",
+      "Derecha (End)",
+      "Izquierda (Start)",
+      "Abajo (Bottom)",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "Para convertir una imagen común en una miniatura con borde de 1px y esquinas redondeadas se usa:",
+    opciones: [
+      ".img-mini",
+      ".img-thumbnail",
+      ".rounded-border",
+      ".photo-small",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cuántos puntos de interrupción (breakpoints) define Bootstrap 5 oficialmente?",
+    opciones: [
+      "4 (pequeño, medio, grande, extra)",
+      "6 (xs, sm, md, lg, xl, xxl)",
+      "3 (móvil, tablet, escritorio)",
+      "12 (uno por cada columna)",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cuál de las siguientes es una clase de color semántico para un mensaje de precaución?",
+    opciones: [".btn-blue", ".alert-warning", ".text-danger", ".bg-success"],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "Según el material, para alinear una imagen al final (derecha) de su contenedor usamos:",
+    opciones: [
+      ".align-right",
+      ".rounded float-end",
+      ".float-right",
+      ".position-end",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿Qué componente de Bootstrap se caracteriza por ser una ventana emergente que elimina el acceso al resto del sitio hasta cerrarse?",
+    opciones: ["Navbar", "Figure", "Modal", "Toast"],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "Sobre las Barras de Navegación, ¿qué afirma el apunte respecto a su fluidez?",
+    opciones: [
+      "Son fijas por defecto",
+      "Su contenido es fluido de manera predeterminada",
+      "No pueden llevar el logo de la empresa",
+      "Requieren JS obligatorio para aparecer en pantalla",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "Para que una tabla cambie su color de fondo a oscuro, se le debe agregar la clase:",
+    opciones: [".table-black", ".table-dark", ".bg-night", ".style-dark"],
+    correcta: 1,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿A qué categoría técnica pertenece la clase .text-center o .d-none?",
+    opciones: [
+      "Componentes primarios",
+      "Maquetación central",
+      "Utilidades (Utilities)",
+      "Reglas de servidor",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 2,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cómo se llama el archivo comprimido que ya incluye Popper JS y Bootstrap JS integrados?",
+    opciones: [
+      "bootstrap.css",
+      "bootstrap.bundle.min.js",
+      "bootstrap.npm.js",
+      "popper.package.js",
+    ],
+    correcta: 1,
+  },
   // ==========================================
   // NIVEL 2 - MIX (Análisis de Código Integrado)
   // ==========================================
@@ -1061,7 +1458,173 @@ export const bancoPreguntas = [
     ],
     correcta: 1,
   },
-
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "Según la norma de anidamiento, ¿qué etiqueta tiene prohibido contener a una etiqueta <header> según el material?",
+    opciones: [
+      "No tiene prohibiciones de anidamiento",
+      "No puede colocarse dentro de un footer, un address o de otro header",
+      "No puede ir dentro de una sección semántica",
+      "Solamente puede ser hija directa de la etiqueta body",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "¿Qué regla de oro establece el material sobre los nombres de archivos html para evitar problemas en los servidores?",
+    opciones: [
+      "Deben contener siempre espacios para mayor claridad",
+      "Deben usar caracteres alfanuméricos y guiones (sin eñes ni acentos)",
+      "Es obligatorio que el nombre esté todo en mayúsculas",
+      "Se debe incluir la fecha de creación en el nombre",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "Si desea agrupar una imagen y su descripción para que la computadora entienda que tienen una relación lógica, la forma correcta es:",
+    opciones: [
+      "Usar un div con una clase especial",
+      "Usar la etiqueta figure conteniendo a la imagen y al figcaption",
+      "Colocar un párrafo debajo de la etiqueta img",
+      "Escribir la descripción dentro del atributo title de la imagen",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "En la jerarquía de títulos, ¿por qué se recomienda seguir el orden de h1 a h6 sin saltear niveles?",
+    opciones: [
+      "Para que el tamaño de la letra no cambie",
+      "Para garantizar una estructura lógica y accesible (SEO técnico)",
+      "Porque los navegadores antiguos no cargan los niveles salteados",
+      "Es una regla obligatoria para poder usar Bootstrap después",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "¿Cuál es la utilidad del atributo 'autofocus' en términos de experiencia de usuario avanzado?",
+    opciones: [
+      "Hace que el navegador complete el campo automáticamente",
+      "Sitúa el cursor de entrada directamente en el campo al cargar la página",
+      "Verifica si el usuario escribió una dirección de correo válida",
+      "Zoom automático sobre el teclado en dispositivos móviles",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "En una tabla técnica compleja, si se aplica el atributo 'rowspan=2', ¿qué efecto estamos logrando?",
+    opciones: [
+      "Combinar dos columnas de forma horizontal",
+      "Combinar dos filas de forma vertical",
+      "Hacer que el texto de la celda aparezca en dos idiomas",
+      "Crear una celda que es el doble de ancha que el resto",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "Al definir una ruta relativa de una imagen situada en una carpeta superior a nuestro archivo, se utiliza la expresión:",
+    opciones: ["//", "home/", "../", "./"],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "En la definición de la web semántica de la W3C, ¿cuál es el objetivo final para los datos?",
+    opciones: [
+      "Que sean privados y no se puedan copiar",
+      "Que puedan ser compartidos y reutilizados entre aplicaciones y comunidades",
+      "Que ocupen menos espacio en los discos de los servidores",
+      "Que el código HTML5 sea idéntico para todas las empresas",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "¿Qué atributo de entrada permite configurar saltos específicos en un campo numérico (ej: aceptar de 5 en 5)?",
+    opciones: ["min-max", "skip", "step", "values"],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "¿Por qué un artículo o noticia debe marcarse con la etiqueta <article> en lugar de una simple <section>?",
+    opciones: [
+      "Porque es obligatorio que los artículos lleven un borde rojo",
+      "Porque el artículo representa contenido autónomo, independiente y reutilizable",
+      "Porque la etiqueta section está en desuso en HTML5",
+      "No existe diferencia técnica entre ambas etiquetas",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "En el contexto de formularios, si usamos un grupo de opciones 'radio', ¿qué propiedad técnica garantiza que solo se pueda elegir una a la vez?",
+    opciones: [
+      "Que tengan diferentes valores de id",
+      "Que compartan exactamente el mismo valor en el atributo name",
+      "Que se encuentren dentro de un mismo contenedor fieldset",
+      "Que todos tengan activado el atributo required",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "Si una etiqueta de texto es 'huérfana' como <br /> o <img />, esto significa técnicamente que:",
+    opciones: [
+      "No puede llevar atributos en su interior",
+      "No necesita una etiqueta de cierre separada",
+      "No se puede utilizar en la cabecera head",
+      "Debe ser reemplazada por una etiqueta par en HTML5",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "El material recomienda utilizar el elemento <nav> exclusivamente para:",
+    opciones: [
+      "Todos los enlaces que aparezcan en el cuerpo de la página",
+      "Los bloques principales de navegación del sitio web",
+      "Los botones que envían datos en los formularios",
+      "Las referencias bibliográficas al final del documento",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "html",
+    pregunta:
+      "Para limitar la longitud máxima de caracteres que un usuario puede escribir en un campo de texto corto se usa:",
+    opciones: ["length-size", "maxlength", "max-chars", "required-length"],
+    correcta: 1,
+  },
   // ==========================================
   // NIVEL 3 - CSS (Senior/Lógica)
   // ==========================================
@@ -1125,7 +1688,201 @@ export const bancoPreguntas = [
     opciones: ["padding-top", "border-top", "margin-top", "spacing-top"],
     correcta: 2,
   },
-
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "¿En qué año y quién gestionó el desarrollo y la estandarización oficial de CSS antes de su primera recomendación?",
+    opciones: [
+      "Microsoft en el año 1996",
+      "El W3C en el año 1995, añadiéndolo a su grupo de trabajo de HTML",
+      "Winston Royce en el año 1970",
+      "Ian Sommerville en la década de los 90",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Sobre el modelo de capas de una caja, ¿qué se visualiza por detrás del contenido y del espacio de relleno según el apunte?",
+    opciones: [
+      "El margen externo y los bordes",
+      "La imagen de fondo y el color de fondo",
+      "Únicamente los espacios en blanco del navegador",
+      "Las etiquetas HTML adyacentes",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "En los cálculos de unidades absolutas, ¿a cuánto equivale exactamente un punto (pt) según la norma técnica?",
+    opciones: [
+      "1 milímetro",
+      "1/72 de pulgada",
+      "10 píxeles de resolución",
+      "La mitad de una pica",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Al usar selectores de clase múltiples como '.error.destacado', el navegador seleccionará los elementos que:",
+    opciones: [
+      "Tengan al menos una de las dos clases asignadas",
+      "Tengan ambas clases aplicadas simultáneamente",
+      "Estén anidados uno dentro del otro",
+      "Tengan un ID que se llame igual a la clase",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Según el orden de prioridad en la cascada, ¿cuál de estos estilos se considera el de menor rango y será anulado por los demás?",
+    opciones: [
+      "Hojas de estilo externas",
+      "Hojas de estilo internas en el cabecero",
+      "Estilos definidos por defecto por el navegador",
+      "Estilos aplicados directamente en la etiqueta",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Respecto al uso de márgenes, el material aclara que los márgenes verticales (top y bottom) tienen la limitación de:",
+    opciones: [
+      "Solo poder aplicarse a elementos de bloque y a imágenes",
+      "Ser obligatorios en todos los párrafos de texto",
+      "No permitir valores negativos bajo ninguna circunstancia",
+      "Anular automáticamente al relleno o padding",
+    ],
+    correcta: 0,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "En una cuadrícula responsiva de 12 columnas, ¿qué debe suceder con el ancho total cuando se cambia el tamaño de la ventana?",
+    opciones: [
+      "Se debe mantener fijo en píxeles para no perder calidad",
+      "Debe sumar siempre el 100% y expandirse o encogerse con la ventana",
+      "Se debe reducir el número de columnas a solo 3",
+      "El contenido debe ocultarse automáticamente en el viewport",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "¿Qué indica el valor 'inherit' aplicado a la propiedad de anchura o altura de un elemento?",
+    opciones: [
+      "Que el elemento calcula su tamaño según sus propios hijos",
+      "Que el elemento hereda el valor exacto de su elemento padre",
+      "Que el navegador decide el tamaño de forma automática",
+      "Que la propiedad queda desactivada",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Para una correcta configuración del viewport, el atributo 'width=device-width' se utiliza específicamente para:",
+    opciones: [
+      "Forzar a que la web se vea como en una computadora de escritorio",
+      "Seguir el ancho de la pantalla del dispositivo utilizado (que variará según cada modelo)",
+      "Reducir el tamaño de las imágenes para que carguen más rápido",
+      "Establecer un límite de 600 píxeles a la página total",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "¿Qué técnica de organización visual divide la página en columnas y es altamente recomendada para facilitar la ubicación de elementos?",
+    opciones: [
+      "Sistema de cascada interna",
+      "Vista de cuadrícula",
+      "Flujo de nodos descendentes",
+      "Anidamiento secuencial",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Al definir una medida en porcentajes, el navegador toma como referencia principal para el cálculo a:",
+    opciones: [
+      "La resolución de la pantalla del usuario",
+      "La medida de su elemento padre",
+      "El tamaño de la fuente configurado en el body",
+      "El valor predeterminado del estándar CSS3",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "Dentro del lenguaje CSS, ¿cómo se denomina formalmente al bloque de contenido situado entre las llaves que define el diseño?",
+    opciones: [
+      "Instrucción",
+      "Selector primario",
+      "Declaración",
+      "Atributo técnico",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "¿Cuál de estas afirmaciones sobre los selectores de ID es correcta según el material de estudio?",
+    opciones: [
+      "Se pueden repetir varias veces en la misma página",
+      "Solo pueden aplicarse a elementos de tipo párrafo",
+      "Son más eficientes que los selectores de clase en casos de un solo elemento",
+      "Tienen menor prioridad que los selectores de etiqueta",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "¿Qué propiedad se utiliza en los documentos técnicos para aplicar estilos solo si la ventana mide un máximo determinado de píxeles?",
+    opciones: [
+      "cascade-limit",
+      "viewport-size",
+      "@media con el parámetro max-width",
+      "responsive-breakpoint",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "css",
+    pregunta:
+      "La ventaja fundamental de centralizar los estilos en un archivo CSS externo mediante la etiqueta link es:",
+    opciones: [
+      "Aumentar la seguridad de la página web",
+      "Lograr un mantenimiento sencillo y cambios instantáneos en todo el sitio",
+      "Que el código HTML se vuelva más difícil de leer para extraños",
+      "Eliminar la necesidad de utilizar etiquetas semánticas en el código",
+    ],
+    correcta: 1,
+  },
   // ==========================================
   // NIVEL 3 - BOOTSTRAP (Senior/Ingeniería)
   // ==========================================
@@ -1192,7 +1949,169 @@ export const bancoPreguntas = [
     opciones: ["Float layout", "Table layout", "Flexbox", "Frame-grid"],
     correcta: 2,
   },
-
+  // --- Continuación NIVEL 3 - Bootstrap ---
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cuál es el propósito exacto de un servidor CDN en el uso de este framework?",
+    opciones: [
+      "Modificar el código de Bootstrap para personalizarlo",
+      "Reemplazar la necesidad de descargar archivos localmente y servirlos desde una red de distribución rápida",
+      "Aumentar la seguridad de las bases de datos SQL",
+      "Traducir las clases al idioma local del usuario",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "En el sistema de grillas, para crear un diseño equilibrado se establece que el contenido siempre debe ir:",
+    opciones: [
+      "Directamente dentro de la clase .container",
+      "Dentro de elementos de columna (.col)",
+      "Pegado a las clases .row",
+      "Antes de las etiquetas semánticas de HTML5",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Qué tecnología interna de CSS utiliza Bootstrap 5 para el funcionamiento de sus columnas y grilla?",
+    opciones: [
+      "Table layout",
+      "Float inheritance",
+      "Flexbox",
+      "Canvas layering",
+    ],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "Sobre el versionado semántico v5.0.1, si realizamos una actualización de tipo 'Menor' (cambiando el 0), esto significa que:",
+    opciones: [
+      "Se corrigieron solo errores visuales leves",
+      "Se agregó funcionalidad nueva de manera compatible con lo anterior",
+      "El sistema dejó de ser compatible con los navegadores anteriores",
+      "Se cambió el color predeterminado del primary-blue",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Por qué el material recomienda incluir los scripts (JS) al final de la etiqueta body?",
+    opciones: [
+      "Para que el código sea más difícil de hackear",
+      "Para asegurar una carga visual más rápida de la página antes de ejecutar la interactividad",
+      "Porque los scripts no funcionan dentro de la etiqueta head",
+      "Es un requerimiento exclusivo para que el CSS funcione",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "Para forzar que un elemento de tipo 'en línea' se comporte como 'bloque' en Bootstrap usamos:",
+    opciones: [".d-inline", ".d-block", ".display-main", ".view-grid"],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Qué afirmación es correcta sobre los Modales anidados en Bootstrap?",
+    opciones: [
+      "Se pueden abrir hasta 5 a la vez",
+      "Bootstrap no admite oficialmente formularios o modales anidados por experiencia de usuario",
+      "Es la forma recomendada de navegación móvil",
+      "Funcionan únicamente con Popper JS versión 1",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "En una fila con clase .col-lg-6 .col-12, ¿cuál será el ancho del elemento en una tablet de 768 píxeles?",
+    opciones: [
+      "La mitad de la pantalla (50%)",
+      "El total del ancho de la pantalla (100%)",
+      "Se mantendrá invisible",
+      "Heredará las 6 columnas del LG",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Qué pseudoclases de CSS utiliza internamente el framework para gestionar la validación visual de formularios?",
+    opciones: [
+      ":active y :hover",
+      ":invalid y :valid",
+      ":focus y :checked",
+      ":target y :link",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cuál es el valor máximo (en píxeles) hasta el que se considera que un dispositivo es Extra-Pequeño (xs)?",
+    opciones: [
+      "Hasta los 720 píxeles",
+      "Menos de 576 píxeles",
+      "Exactamente 1024 píxeles",
+      "Cualquier pantalla de más de 1200 píxeles",
+    ],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Qué herramienta recomiendan los apuntes para instalar Bootstrap si se trabaja con el lenguaje PHP?",
+    opciones: ["NPM", "Composer", "Nuget", "Manual ZIP"],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "En una cuadrícula de Bootstrap, ¿cuál es el número total de unidades en las que se divide horizontalmente el espacio?",
+    opciones: ["8 unidades", "10 unidades", "12 unidades", "24 unidades"],
+    correcta: 2,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cuál es la clase base que permite añadir las reglas de navegación del elemento nav en Bootstrap?",
+    opciones: [".nav-links", ".navbar", ".header-nav", ".navigation-box"],
+    correcta: 1,
+  },
+  {
+    nivel: 3,
+    tema: "bootstrap",
+    pregunta:
+      "¿Cómo se implementan las muescas o alertas 'toast' de éxito en una tabla Bootstrap?",
+    opciones: [
+      "Mediante la clase .table-alert",
+      "Agregando clases contextuales como .table-success al elemento tr o td",
+      "Usando únicamente JS en las celdas th",
+      "El framework no permite colores en las tablas",
+    ],
+    correcta: 1,
+  },
   // ==========================================
   // NIVEL 3 - MIX (Experto / Integración Total)
   // ==========================================
